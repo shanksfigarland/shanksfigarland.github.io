@@ -11,7 +11,7 @@ Often times during a Post-Exploitation phase, the box or an exercise we need to 
 
 To help with that we have an awesome suite called [Impacket](https://github.com/fortra/impacket).
 
-It's already include in Kali.
+There's no need for installation since it's already include in Kali.
 
 ## Creating a SMB server:
 
