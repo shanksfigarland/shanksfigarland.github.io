@@ -19,7 +19,7 @@ There's no need for installation since it's already include in Kali.
 ```bash
 impacket-smbserver share /path/you/want --smb2support
 ```
-We use `--smbsupport` because often times it gives you an error for SMB1.
+We use `--smbsupport` because sometimes gives you an error for SMB1.
 
 Example:
 
