@@ -12,9 +12,8 @@ Often times during a Post-Exploitation phase, the box or an exercise we need to 
 
 To help with that we have an awesome suite called [Impacket](https://github.com/fortra/impacket).
 
-```
-Impacket is a collection of Python classes for working with network protocols. Impacket is focused on providing low-level programmatic access to the packets and for some protocols (e.g. SMB1-3 and MSRPC) the protocol implementation itself. Packets can be constructed from scratch, as well as parsed from raw data, and the object-oriented API makes it simple to work with deep hierarchies of protocols. The library provides a set of tools as examples of what can be done within the context of this library.
-```
+> Impacket is a collection of Python classes for working with network protocols. Impacket is focused on providing low-level programmatic access to the packets and for some protocols (e.g. SMB1-3 and MSRPC) the protocol implementation itself. Packets can be constructed from scratch, as well as parsed from raw data, and the object-oriented API makes it simple to work with deep hierarchies of protocols. The library provides a set of tools as examples of what can be done within the context of this library.
+{: .prompt-tip }
 
 There's no need for installation since it's already include in Kali.
 
@@ -67,7 +66,7 @@ The command completed successfully.
 ```
 
 
- > This is very bad for OPSEC so it's not recommended. If you do, consider disconnecting from the driver using the following: `C:\>net use /d \\[host]\[share name]`
+> This is very bad for OPSEC so it's not recommended. If you do, consider disconnecting from the driver using the following: `C:\>net use /d \\[host]\[share name]`
 {: .prompt-warning }
 
 
