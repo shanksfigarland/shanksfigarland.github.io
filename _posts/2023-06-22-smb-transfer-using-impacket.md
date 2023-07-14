@@ -62,7 +62,9 @@ C:\>net use p: \\10.11.0.XXX\anakin
 The command completed successfully.
 ```
 
-This is very bad for OPSEC so it's not recommended. If you do, consider disconnecting from the driver using the following: `C:\>net use /d \\[host]\[share name]`
+
+ > This is very bad for OPSEC so it's not recommended. If you do, consider disconnecting from the driver using the following: `C:\>net use /d \\[host]\[share name]`
+{: .prompt-warning }
 
 
 And that's pretty much it! Very quick and simple.
