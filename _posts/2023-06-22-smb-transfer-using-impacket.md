@@ -13,6 +13,8 @@ image:
 
 Often times during a Post-Exploitation phase, the box or an exercise we need to access certain Windows (mostly) machines that **don't** have internet or any way to transfer a file back to our Kali machine.
 
+There are many other ways and techniques to transfer files (that i'll cover in another post) but so far this is the most successful one for me, so feel free to use the one that suits you best. 
+
 To help with that we have an awesome suite called [Impacket](https://github.com/fortra/impacket).
 
 > Impacket is a collection of Python classes for working with network protocols. Impacket is focused on providing low-level programmatic access to the packets and for some protocols (e.g. SMB1-3 and MSRPC) the protocol implementation itself. Packets can be constructed from scratch, as well as parsed from raw data, and the object-oriented API makes it simple to work with deep hierarchies of protocols. The library provides a set of tools as examples of what can be done within the context of this library.
