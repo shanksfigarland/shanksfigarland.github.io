@@ -4,6 +4,7 @@ date: 2023-06-22 10:00:00 +07:00
 tags: [smb, transfer, impacket]
 categories: [file transfer]
 description: File transfer between Kali <> Windows using Impacket SMB server.
+pin: true
 ---
 
 ## The power of Impacket

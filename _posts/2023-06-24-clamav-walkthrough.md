@@ -4,6 +4,7 @@ date: 2023-06-23 12:00:00 +07:00
 tags: [clamav, pg, walkthrough]
 categories: [write-up, pg]
 description: Write-up of the ClamAV machine from Proving Grounds Practice
+pin: true
 ---
 
 ## Enumeration
