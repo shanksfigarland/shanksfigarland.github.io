@@ -22,4 +22,6 @@ I'm very into manga and my favorite is One Piece. That's why the name of this bl
 Also a huge fan of Star Wars and sometimes I use `anakin` as alias.
 
 
+Cheers,
+
 ![Shanks](/assets/img/commons/shanks.gif)
