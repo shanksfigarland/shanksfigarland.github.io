@@ -27,7 +27,7 @@ We use `--smbsupport` because sometimes gives you an error for SMB1.
 Example:
 
 ```bash
-impacket-smbserver  anakin /home/kali/offsec/tools -smb2support
+impacket-smbserver anakin /home/kali/offsec/tools -smb2support
 Impacket v0.10.0 - Copyright 2022 SecureAuth Corporation
 
 [*] Config file parsed
