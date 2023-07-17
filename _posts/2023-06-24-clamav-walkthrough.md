@@ -13,8 +13,6 @@ ClamAV is a Linux machine from Offsec's Learning Plataform: [Proving Grounds](ht
 
 The name reflects an open-source antivirus engine. 
 
---
-
 Let's begin!
 
 ## Enumeration
