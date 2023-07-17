@@ -9,6 +9,14 @@ image:
   path: /assets/img/commons/clamav.png
 ---
 
+ClamAV is a Linux machine from Offsec's Learning Plataform: [Proving Grounds](https://portal.offsec.com/labs/practice).
+
+The name reflects an open-source antivirus engine. 
+
+--
+
+Let's begin!
+
 ## Enumeration
 
 I started off by firing up `rustscan` since it's faster lol, and to give me an overview of the open ports.
