@@ -1,7 +1,7 @@
 ---
 title: ClamAV Walthrough - Proving Grounds
 date: 2023-06-23 12:00:00 +07:00
-tags: [clamav, proving grounds, walkthrough]
+tags: [ClamAV, Proving Grounds, Walkthrough]
 categories: [Write-up, Proving Grounds]
 description: Write-up of the ClamAV machine from Proving Grounds Practice
 pin: true

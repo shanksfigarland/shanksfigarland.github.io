@@ -1,7 +1,7 @@
 ---
 title: Dev(Insecure)Ops - AoC3 - Day 14 - Walkthrough 
 date: 2021-12-17 10:00:00 +07:00
-tags: [tryhackme, aoc3, hacking, cybersecurity, walkthrough]
+tags: [TryHackMe, AoC3, Walkthrough]
 description: 
 ---
 
