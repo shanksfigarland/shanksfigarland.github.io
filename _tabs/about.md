@@ -12,7 +12,7 @@ Hello, world!
 
 I'm current a student in a full-time job trying out some offensive certifications. 
 
-I current have the OSCP and my next one is CRTP!
+I current have the `OSCP` and my next one is `CRTP`!
 
 In this blog I'll try my best to post write-ups of the boxes I do, tips and tricks and hopefully land a job in `Pentesting/Red Team` someday!
 
