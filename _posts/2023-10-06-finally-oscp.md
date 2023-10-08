@@ -12,7 +12,8 @@ image:
 
 After a long journey, I finally received my passing results on October 2th that I have passed `OSCP`!
 
-
-
-
 ![passing](/assets/img/commons/passing.png)
+
+
+## Next: `CRTP`!
+
