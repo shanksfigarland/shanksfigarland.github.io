@@ -5,44 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>shanks//lab</title>
   <style>
-    :root { color-scheme: dark; }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; margin: 0; background: #070b09; color: #d7e1db; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .bar {
-      position: fixed; inset: 0 0 auto 0; height: 40px; display: flex; align-items: center; gap: 10px;
-      padding: 0 12px; background: rgba(10, 16, 13, 0.92); border-bottom: 1px solid #1d2f25; z-index: 10;
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background: #0b0f0d;
+      overflow: hidden;
     }
-    .tag { color: #88e4b1; font-weight: 700; letter-spacing: .03em; }
-    .hint { color: #91a39a; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .open {
-      margin-left: auto; color: #b9f5d6; text-decoration: none; font-size: 12px;
-      border: 1px solid #305641; border-radius: 8px; padding: 4px 8px;
+
+    iframe {
+      border: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      background: #0b0f0d;
     }
-    .open:hover { border-color: #4a7c62; }
-    iframe { position: fixed; inset: 40px 0 0 0; width: 100%; height: calc(100% - 40px); border: 0; background: #0b0f0d; }
   </style>
 </head>
 <body>
-  <div class="bar">
-    <span class="tag">shanks//lab</span>
-    <span class="hint" id="target-url">loading…</span>
-    <a class="open" id="open-link" href="#" target="_blank" rel="noopener">open direct</a>
-  </div>
-
-  <iframe id="siteFrame" loading="eager" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe id="siteFrame" loading="eager" referrerpolicy="no-referrer-when-downgrade" title="shanks site"></iframe>
 
   <script>
     (function () {
       var origin = 'https://shanksfigarland.github.io';
       var projectBase = '/shanks.github.io';
-      var path = window.location.pathname.replace(/^\/index\.html$/, '/');
+      var path = window.location.pathname;
+
+      if (path === '/index.html') {
+        path = '/';
+      }
+
       if (path.indexOf(projectBase + '/') === 0) {
         path = path.slice(projectBase.length);
       }
+
       var target = origin + projectBase + (path === '/' ? '/' : path) + window.location.search + window.location.hash;
       document.getElementById('siteFrame').src = target;
-      document.getElementById('open-link').href = target;
-      document.getElementById('target-url').textContent = target;
     })();
   </script>
 </body>
